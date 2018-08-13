@@ -1,0 +1,2 @@
+class Iventory < ApplicationRecord
+end

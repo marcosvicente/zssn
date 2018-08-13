@@ -42,6 +42,8 @@ group :development, :test do
    gem 'database_cleaner'
    # Collection of testing matchers extracted from Shoulda http://matchers.shoulda.io
    gem 'shoulda-matchers', '3.0.0.rc1'
+   # A library for generating fake data such as names, addresses, and phone numbers.
+   gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 end
 
